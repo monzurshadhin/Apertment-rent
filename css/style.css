@@ -1,0 +1,209 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+/* nav bar section  */
+
+.nav-item {
+  display: flex;
+  align-items: center;
+}
+.nav-item a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  margin-right: 40px;
+}
+.nav-item a:hover {
+  color: #275a53;
+}
+
+.login-btn {
+  background-color: #275a53;
+  color: white;
+  outline: none;
+  border: none;
+  padding: 12px 29px;
+  border-radius: 5px;
+}
+
+/* heading section  */
+.top-heading {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)),
+    url(../images/Rectangle\ 13.png);
+
+  background-size: cover;
+  /* background-attachment: fixed; */
+  background-repeat: no-repeat;
+  background-position: bottom;
+  padding-bottom: 181px;
+  margin-top: 90px;
+}
+.header-title {
+  padding-top: 100px;
+  margin-bottom: 51px;
+  color: white;
+  font-weight: 700;
+}
+.search-input {
+  padding-left: 10px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  width: 50%;
+  height: 50px;
+  margin-right: 10px;
+}
+.search-btn {
+  background-color: #275a53;
+  color: white;
+  outline: none;
+  border: none;
+  padding: 14px 46px;
+  border-radius: 5px;
+}
+
+/* rent section  */
+main {
+  background-color: #f1f6f4;
+}
+.small-text {
+  font-weight: 500;
+  margin-top: 50px;
+}
+.section-title {
+  width: 75%;
+  font-weight: 700;
+  font-size: 34px;
+  margin: auto;
+  margin-bottom: 55px;
+}
+
+.small-text {
+  color: #275a53;
+}
+
+.card-icon {
+  width: 15px;
+  height: 20px;
+}
+.card-text {
+  font-size: 14px;
+  color: #747474;
+}
+.card-title {
+  font-size: 20px;
+  font-weight: 700;
+  color: #275a53;
+  margin-top: 18px;
+  margin-bottom: 14px;
+}
+.card-body {
+  background-color: white;
+}
+.details {
+  margin-top: 48px;
+}
+.details-btn {
+  background-color: #275a53;
+  color: white;
+  outline: none;
+  border: none;
+  padding: 12px 29px;
+  border-radius: 5px;
+}
+.price {
+  font-size: 36px;
+  font-weight: 700;
+  color: #275a53;
+}
+
+.rent-card:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#footer-section {
+  background-color: #275a53;
+  padding-top: 77px;
+  padding-bottom: 77px;
+}
+.footer-location {
+  color: white;
+  font-size: 500;
+  padding-left: 20px;
+}
+.footer-location-div {
+  margin-top: 20px;
+}
+.company h5 {
+  color: white;
+  font-weight: 600px;
+  padding-left: 30px;
+  margin-top: 20px;
+  font-size: 25px;
+}
+.company li {
+  list-style: none;
+  padding-top: 10px;
+  color: white;
+  font-weight: 400;
+  padding-left: 30px;
+}
+
+.quick-links h5 {
+  color: white;
+  font-weight: 600px;
+  padding-left: 30px;
+  margin-top: 20px;
+  font-size: 25px;
+}
+.quick-links li {
+  list-style: none;
+  padding-top: 10px;
+  color: white;
+  font-weight: 400;
+  padding-left: 30px;
+}
+.about-us h5 {
+  color: white;
+  font-weight: 600px;
+  padding-left: 30px;
+  margin-top: 20px;
+  font-size: 25px;
+}
+.about-us p {
+  list-style: none;
+  padding-top: 10px;
+  color: white;
+  font-weight: 400;
+  padding-left: 30px;
+}
+.about-us ul li img {
+  height: 22px;
+  width: 22px;
+  margin-right: 25px;
+}
+.about-us ul {
+  list-style: none;
+  display: flex;
+  padding-left: 30px;
+}
+
+@media only screen and (max-width: 480px) {
+  .search-input {
+    display: block;
+    margin: auto;
+    width: 75%;
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .nav-item {
+    padding: 10px;
+  }
+}

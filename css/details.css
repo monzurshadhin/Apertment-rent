@@ -1,0 +1,127 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+/* nav bar section  */
+
+.nav-item {
+  display: flex;
+  align-items: center;
+}
+.nav-item a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  margin-right: 40px;
+}
+.nav-item a:hover {
+  color: #275a53;
+}
+
+.login-btn {
+  background-color: #275a53;
+  color: white;
+  outline: none;
+  border: none;
+  padding: 12px 29px;
+  border-radius: 5px;
+}
+
+/* heading section  */
+.top-heading {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)),
+    url(../images/Rectangle\ 13.png);
+
+  background-size: cover;
+  /* background-attachment: fixed; */
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-bottom: 105px;
+  padding-top: 60px;
+  margin-top: 90px;
+}
+.header-title {
+  padding-top: 100px;
+  margin-bottom: 51px;
+  color: white;
+  font-weight: 700;
+}
+.search-input {
+  padding-left: 10px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  width: 50%;
+  height: 50px;
+  margin-right: 10px;
+}
+.search-btn {
+  background-color: #275a53;
+  color: white;
+  outline: none;
+  border: none;
+  padding: 14px 46px;
+  border-radius: 5px;
+}
+
+/* details section  */
+.details-title {
+  font-weight: bold;
+  font-size: 36px;
+}
+.price {
+  font-weight: bold;
+  font-size: 36px;
+  color: #275a53;
+}
+.details-text {
+  color: #747474;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.price-details,
+.property-details {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+/* form part  */
+form {
+  background-color: #f4f4f4;
+  padding: 50px 20px 30px 20px;
+}
+form input {
+  height: 50px;
+  margin-bottom: 16px;
+}
+
+.text-area {
+  width: 100%;
+}
+.form-button {
+  background-color: #275a53;
+  color: white;
+  outline: none;
+  border: none;
+  padding: 10px 0px;
+}
+
+@media only screen and (max-width: 480px) {
+  .search-input {
+    display: block;
+    margin: auto;
+    width: 75%;
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .nav-item {
+    padding: 10px;
+  }
+}
