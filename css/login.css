@@ -149,7 +149,7 @@ html {
     height: 2px;
     background-color: black;
     position: absolute;
-    right: 30%;
+    right: 29%;
     top: 50%;
   }
   .or-divider:before {
@@ -160,7 +160,7 @@ html {
     height: 2px;
     background-color: black;
     position: absolute;
-    left: 30%;
+    left: 29%;
     top: 50%;
   }
 
